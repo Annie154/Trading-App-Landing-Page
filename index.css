@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav {
+  background-color: #0f171c;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+  height: 68px;
+}
+
+.left-cont {
+  display: flex;
+  align-items: center;
+}
+
+.right-cont {
+  display: flex;
+  align-items: center;
+}
+
+.logo-imgs {
+  margin-right: 120px;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.nav-items {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 15px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.user {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  width: 135px;
+}
+
+.create {
+  border: none;
+  background-color: #ffda39;
+  color: black;
+  margin-right: 15px;
+}
+
+.login {
+  border: solid 1px #ffda39;
+  background-color: transparent;
+  color: #ffda39;
+  margin-right: 20px;
+}
+
+.browser-icon:hover {
+  color: #ffda39;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#page-a {
+  background-image: url(https://images.ctfassets.net/1rkoumd4khui/1NZg0heS9jZcWDppfFGMHb/899dbae8bcfa370e9b07577c43854730/exness-home-page-banner-desktop.jpg?w=1920&h=760&fl=progressive&q=85&fm=jpg);
+  padding: 30px 100px;
+  background-size: 105vw 100%;
+  height: 100vh;
+}
+
+.showcasea-title {
+  color: #fff;
+  font-size: 55px;
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  margin-top: 100px;
+  line-height: 4.5rem;
+}
+
+.showcasea-para {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  width: 450px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.a-btn {
+  margin-top: 70px;
+}
+
+#page-b {
+  background-color: #363d42;
+  padding: 30px 100px;
+  text-align: center;
+}
+
+.showcaseb-title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.showcaseb-para {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.showcaseb-link {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.showcaseb-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1134px;
+  height: 297px;
+  margin-top: 50px;
+}
